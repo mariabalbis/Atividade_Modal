@@ -1,0 +1,37 @@
+  
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,23,178,1) 35%, rgba(2,0,36,1) 100%);
+align-items: center;
+text-align: center;
+justify-content: space-around;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto_modal{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dialog::backdrop{
+
+    background-color: #000000c0;
+}
+
+dialog{
+
+    border: none;
+    border-radius: 20px;
+
+}
